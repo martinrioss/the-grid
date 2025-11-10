@@ -1,0 +1,123 @@
+.nav{
+    background-color: #B87C4C;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.logo{
+    width: 190px;
+    height: 50px;
+}
+.links{
+        width: 100%;
+}
+.flayer{
+    height: 500px;
+    width: 100%;
+    object-fit:contain;
+}
+.prod{
+    font-family: "Montserrat";
+    text-align: center;
+}
+.cards{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tarjeta{
+    background-color: #C4A484;  
+    width: 18rem;
+}
+.tarjeta img{
+    height: 350px;
+    object-fit:fill;
+    border: 1px solid black;
+}
+.tarjeta h5{
+    font-family: "Montserrat";
+}
+.tarjeta p{
+    font-family: "Roboto";
+}
+.footer {
+  background-color: #B87C4C;
+  font-family: "Roboto";
+  padding: 20px;
+  margin-top: auto; 
+}
+.footer-logo {
+  width: 150px;
+}
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+}
+.red-link .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5a5a5a;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.red-link .social-icon i {
+  line-height: 1;
+}
+.red-link img{
+    width:35px;
+    height:35px;
+}
+.cont{
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 30px;
+}
+.formulario{
+  font-family: "Roboto";
+  background-color:#C4A484 ;
+  border-radius: 20px;
+  height: 500px;
+  margin: 70px;
+}
+.inputs{
+  width: 60%;
+  margin: 10px;
+}
+.input-consulta{
+  height: 70px;
+}
+.boton{
+  background-color: #A8BBA3;
+  border-radius: 20px;
+  width: 90px;
+}
+
+@media (max-width: 768px) {  
+  .footer iframe {
+    width: 100%;
+    height: 150px;
+  }
+}
+@media (max-width: 425px){
+    .flayer{
+        height: 400px;
+    }
+    .tarjeta {
+        width: 14rem;
+        margin: 20px;
+    }
+    .tarjeta img{
+        height: 200px;
+        object-fit:cover;
+    }
+}
