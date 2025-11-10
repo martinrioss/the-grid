@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="StyleP.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Formas de Pago</title>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-sm nav ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav links d-flex justify-content-evenly uli">
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-current="page">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </nav>
+
+  <section class="formas-pago container">
+    <h2>FORMAS DE PAGO</h2>
+
+    <div class="pago-item" data-bs-toggle="collapse" data-bs-target="#tarjeta" aria-expanded="false">
+      <span><i class="bi bi-credit-card-fill"></i> Tarjeta de crédito / débito</span>
+    <i class="bi bi-chevron-down flecha"></i>
+    </div>
+    <div id="tarjeta" class="collapse collapse-text">
+      <p>Puedes pagar con tarjetas Visa, MasterCard o American Express. Aceptamos tanto crédito como débito.</p>
+    </div>
+
+    <div class="pago-item" data-bs-toggle="collapse" data-bs-target="#transferencia" aria-expanded="false">
+      <span><i class="bi bi-bank2"></i> Transferencia bancaria</span>
+      <i class="bi bi-chevron-down flecha"></i>
+    </div>
+    <div id="transferencia" class="collapse collapse-text">
+      <p>Realiza una transferencia directa a nuestra cuenta bancaria. Los datos se enviarán al confirmar tu pedido.</p>
+    </div>
+
+
+    <div class="pago-item" data-bs-toggle="collapse" data-bs-target="#efectivo" aria-expanded="false">
+      <span><i class="bi bi-cash-coin"></i> Pago en efectivo (Rapipago / Pago Fácil)</span>
+      <i class="bi bi-chevron-down flecha"></i>
+    </div>
+    <div id="efectivo" class="collapse collapse-text">
+      <p>Selecciona esta opción y recibirás un cupón de pago para abonar en Rapipago o Pago Fácil.</p>
+    </div>
+
+
+    <div class="pago-item" data-bs-toggle="collapse" data-bs-target="#mercadopago" aria-expanded="false">
+      <span><i class="bi bi-phone-fill"></i> Pagos a través de MercadoPago</span>
+      <i class="bi bi-chevron-down flecha"></i>
+    </div>
+    <div id="mercadopago" class="collapse collapse-text">
+      <p>Paga fácilmente con tu cuenta de MercadoPago usando tu saldo, tarjeta o dinero en cuenta.</p>
+    </div>
+
+    <div class="pago-item pago-seguridad">
+      <span><i class="bi bi-shield-lock-fill"></i> Tus pagos están protegidos</span>
+    </div>
+    <p class="texto-seguridad">Utilizamos plataformas seguras para procesar todas las transacciones. Nunca compartimos tus datos financieros.</p>
+
+    <p class="mt-4"><strong>¿Tenés dudas sobre los pagos?</strong> Contactanos.</p>
+  </section>
+
+ <footer class="footer p-4 mt-5">
+        <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center text-center text-lg-start">
+            <div class="mb-4 mb-lg-0">
+            <img src="../img/logo.png" alt="THE GRID" class="footer-logo">
+            </div>
+            <div class="redes-sociales text-center">
+                <h6 class="fw-bold mb-3">Nuestras Redes</h6>
+                <div class="d-flex justify-content-center gap-3 red-link">
+                    <a href="https://www.instagram.com/" target="_blank" >
+                        <img src="../img/instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" >
+                        <img src="../img/facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://x.com/X." target="_blank" >
+                        <img src="../img/x.png" alt="x">
+                    </a>
+                </div>
+            </div>
+            <div>
+            <h6 class="fw-bold mb-2">Ubicación</h6>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.337034468012!2d2.292292315674518!3d48.85884407928702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1234567890abcdef!2sGoogle+Maps!5e0!3m2!1ses!2sfr!4v1234567890"
+                width="200" height="120" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            </div>
+
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
